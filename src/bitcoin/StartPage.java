@@ -38,6 +38,7 @@ import uk.co.caprica.vlcj.player.MediaPlayerFactory;
 import uk.co.caprica.vlcj.player.embedded.DefaultFullScreenStrategy;
 import uk.co.caprica.vlcj.player.embedded.EmbeddedMediaPlayer;
 import uk.co.caprica.vlcj.runtime.RuntimeUtil;
+import java.awt.SystemColor;
 
 /*
  * « ø‰«—∞≈
@@ -605,9 +606,12 @@ public class StartPage {
 		levelpanel.setLayout(null);
 		
 		JPanel register_fail = new JPanel();
-		register_fail.setBounds(267, 77, 281, 162);
+		register_fail.setBackground(SystemColor.controlHighlight);
+		register_fail.setBorder(new TitledBorder(null, "", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		register_fail.setBounds(260, 8, 281, 162);
 		levelpanel.add(register_fail);
 		register_fail.setLayout(null);
+		
 		register_fail.setVisible(false);
 		
 		JButton Close = new JButton("\uB2EB\uAE30");
@@ -627,8 +631,52 @@ public class StartPage {
 		lblNewLabel_13.setBounds(25, 45, 244, 40);
 		register_fail.add(lblNewLabel_13);
 		
+		JPanel load_fail = new JPanel();
+		load_fail.setBackground(SystemColor.controlHighlight);
+		load_fail.setBorder(new TitledBorder(null, "", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		load_fail.setBounds(260, 8, 281, 161);
+		levelpanel.add(load_fail);
+		load_fail.setLayout(null);
+		load_fail.setVisible(false);
+		
+		JButton btnNewButton_12 = new JButton("\uB2EB\uAE30");
+		btnNewButton_12.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				load_fail.setVisible(false);
+			}
+		});
+		btnNewButton_12.setBounds(98, 129, 72, 23);
+		load_fail.add(btnNewButton_12);
+		
+		JLabel lblNewLabel_14 = new JLabel("\uB85C\uB4DC\uD560 \uB370\uC774\uD130\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4.");
+		lblNewLabel_14.setBounds(64, 55, 155, 15);
+		load_fail.add(lblNewLabel_14);
+		
+		JPanel login_fail = new JPanel();
+		login_fail.setBackground(SystemColor.controlHighlight);
+		login_fail.setBorder(new TitledBorder(null, "", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		login_fail.setBounds(260, 8, 281, 162);
+		levelpanel.add(login_fail);
+		login_fail.setLayout(null);
+		login_fail.setVisible(false);
+		
+		JButton btnNewButton_11 = new JButton("\uB2EB\uAE30");
+		btnNewButton_11.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				login_fail.setVisible(false);
+			}
+		});
+		btnNewButton_11.setBounds(98, 129, 72, 23);
+		login_fail.add(btnNewButton_11);
+		
+		JLabel lblNewLabel_10 = new JLabel("            \uB85C\uADF8\uC778 \uC2E4\uD328!");
+		lblNewLabel_10.setBounds(56, 53, 164, 66);
+		login_fail.add(lblNewLabel_10);
+		
 		JPanel register_success = new JPanel();
-		register_success.setBounds(267, 77, 281, 162);
+		register_success.setBackground(SystemColor.controlHighlight);
+		register_success.setBorder(new TitledBorder(null, "", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		register_success.setBounds(260, 8, 281, 162);
 		levelpanel.add(register_success);
 		register_success.setLayout(null);
 		register_success.setVisible(false);
@@ -645,44 +693,6 @@ public class StartPage {
 		JLabel lblNewLabel_8 = new JLabel("                \uD68C\uC6D0\uAC00\uC785 \uC131\uACF5");
 		lblNewLabel_8.setBounds(32, 39, 198, 66);
 		register_success.add(lblNewLabel_8);
-		
-		JPanel login_fail = new JPanel();
-		login_fail.setBounds(267, 77, 281, 162);
-		levelpanel.add(login_fail);
-		login_fail.setLayout(null);
-		login_fail.setVisible(false);
-		
-		JButton btnNewButton_11 = new JButton("\uB2EB\uAE30");
-		btnNewButton_11.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				login_fail.setVisible(false);
-			}
-		});
-		btnNewButton_11.setBounds(98, 129, 72, 23);
-		login_fail.add(btnNewButton_11);
-		
-		JLabel lblNewLabel_10 = new JLabel("            \uB85C\uADF8\uC778 \uC2E4\uD328!");
-		lblNewLabel_10.setBounds(28, 53, 164, 66);
-		login_fail.add(lblNewLabel_10);
-		
-		JPanel load_fail = new JPanel();
-		load_fail.setBounds(267, 77, 281, 161);
-		levelpanel.add(load_fail);
-		load_fail.setLayout(null);
-		load_fail.setVisible(false);
-		
-		JButton btnNewButton_12 = new JButton("\uB2EB\uAE30");
-		btnNewButton_12.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				load_fail.setVisible(false);
-			}
-		});
-		btnNewButton_12.setBounds(98, 129, 72, 23);
-		load_fail.add(btnNewButton_12);
-		
-		JLabel lblNewLabel_14 = new JLabel("\uB85C\uB4DC\uD560 \uB370\uC774\uD130\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4.");
-		lblNewLabel_14.setBounds(25, 55, 230, 15);
-		load_fail.add(lblNewLabel_14);
 		JLabel NameLabel = new JLabel("\uC544\uC774\uB514:");
 		NameLabel.setFont(new Font("∏º¿∫ ∞ÌµÒ", Font.PLAIN, 20));
 		NameLabel.setBounds(208, 12, 125, 85);
