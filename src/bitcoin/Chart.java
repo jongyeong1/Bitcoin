@@ -198,6 +198,10 @@ public class Chart extends ApplicationFrame implements ActionListener {
            System.out.println("속보:비트코인 새로운 보안 강화");
            this.lastValue=this.lastValue+100;
         }
+        if(lastValue<150)
+        {
+        	lastValue+=30;
+        }
         this.lastValue = this.lastValue * factor;
         this.lastValue=Math.round(this.lastValue*100)/100.0;
         final Millisecond now = new Millisecond();

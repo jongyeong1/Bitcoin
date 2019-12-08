@@ -476,7 +476,7 @@ public class StartPage {
 	    		   }
 	    		   for(int i =0; i<building.length;i++) {
 	    			   if(building[i]==1) {
-	    				   userdata.Put_own(Value_of_building[i]*(i*3)+1);
+	    				   userdata.Put_own(Value_of_building[i]*(i*3+1));
 	    			   }
 	    		   }
 	    		   //ºú ÀÌÀÚ
@@ -489,6 +489,7 @@ public class StartPage {
 	    			   loan_ex1[i] = (loan_ex2[i] + loan_ex1[i])*loan_ex3[i] /10000;
 	    			   loan_ex2[i] += loan_ex1[i];
 	    		   }
+	    		   loan_ex=loan_ex2[0]+loan_ex2[1]+loan_ex2[2];
 	    		   
 	    	   }
 	    	   Date date = new Date();
@@ -1055,7 +1056,7 @@ public class StartPage {
 			             else if(group.getSelection().getActionCommand()=="Bronze")
 			             {	userdata.Set_bit(0);
 			             	userdata.Set_own(0);
-			            	 userdata.Put_own(50000000);
+			            	 userdata.Put_own(100000000);
 				              level=2;
 				              System.out.println(level);
 				              if(level==1)
@@ -1274,7 +1275,7 @@ public class StartPage {
 			             else if(group.getSelection().getActionCommand()=="Sand")
 			             {	userdata.Set_bit(0);
 			             	userdata.Set_own(0);
-			            	 userdata.Put_own(1000000000L);
+			            	 userdata.Put_own(40000000);
 				              level=1;
 				              System.out.println(level);
 				              if(level==1)
