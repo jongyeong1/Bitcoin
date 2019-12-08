@@ -1514,209 +1514,219 @@ public class StartPage {
 			        			
 			        		
 			        			if(level==1)
-					      		{
-					      			is=0;			//??
-					  
-					      			
-					      			loan_text1="부모님이 가지고 계신 빚";
-					      			btnNewButton_2.setText(loan_text1);
-					      			loan_text2="아프신 부모님이 가지고 계신 빚이다.";
-					      			lblNewLabel_3.setText(loan_text2);
-					      			loan_text3="부모님에 대한 사랑으로 갚으려 한다.";
-					      			label_12.setText(loan_text3);
-					      			loan_text4="부담되긴 하지만 열심히 갚아보자!";
-					      			label_13.setText(loan_text4);
-					      			loan_text5="(게임에서라도 효도를 할 수 있다.)";
-					      			label_14.setText(loan_text5);
-					      			loan_text6="100,000,000";
-					      			lblNewLabel_5.setText(loan_text6);
-					      			loan_text7="5%";
-					      			lblNewLabel_7.setText(loan_text7);
-					      			
-					      			label_16.setText(momo.format(loan_ex1[0]));
-					      			
-					      			label_18.setText(momo.format(loan_ex2[0]));
-					      			loan_text8="D-"+Integer.toString(d_day);
-					      			label_20.setText(loan_text8);
-					      			
-					      			loan_text11="C대학 학자금 대출";
-					      			button_2.setText(loan_text11);
-					      			loan_text12="C모 대학을 다니는 동안 생긴 빚이다.";
-					      			label_2.setText(loan_text12);
-					      			loan_text13="학교가 나한테 해준게 뭔데!라 생각하지만";
-					      			label_3.setText(loan_text13);
-					      			loan_text14="한국장학재단은 내 사정을 봐주지 않는다.";
-					      			label_4.setText(loan_text14);
-					      			loan_text15="장학금을 타지못한 본인을 탓하자.";
-					      			label_5.setText(loan_text15);
-					      			loan_text16="20,000,000";
-					      			label_7.setText(loan_text16);
-					      			loan_text17="0.05%";
-					      			label_23.setText(loan_text17);
-					      			label_25.setText(momo.format(loan_ex1[2]));
-					      			
-					      			label_27.setText(momo.format(loan_ex2[2]));
-					      			loan_text18="D-"+Integer.toString(d_day);
-					      			label_28.setText(loan_text18);
-					      			
-					      			loan_text111="지인들에게 빌린돈";
-					      			button_3.setText(loan_text111);
-					      			loan_text21="여기저기서 융통해온 돈이다.";
-					      			label_30.setText(loan_text21);
-					      			loan_text31="친한친구,친척,전여친에게 돈을 빌렸다.";
-					      			label_31.setText(loan_text31);
-					      			loan_text41="빌린사람은 까먹어도 빌려준 사람은 기억한다.";
-					      			label_32.setText(loan_text41);
-					      			loan_text51="주변 지인들을 잃기전에 갚아야한다.";
-					      			label_33.setText(loan_text51);
-					      			loan_text61="8,000,000";
-					      			label_35.setText(loan_text61);
-					      			loan_text71="0.1%";
-					      			label_37.setText(loan_text71);
-					      			
-					      			label_39.setText(momo.format(loan_ex1[1]));
-					      			label_41.setText(momo.format(loan_ex2[1]));
-					      			loan_text81="D-"+Integer.toString(d_day);
-					      			label_42.setText(loan_text81);
-					      			
-					      			loan_ex=loan_ex2[0]+loan_ex2[1]+loan_ex2[2];
-					      			
-					      		}
-					      		else if(level == 2)
-					      		{
-					      			
-					      		
-					      			
-					      			loan_text1="주식으로 한탕하려다 진 빚";
-					      			btnNewButton_2.setText(loan_text1);
-					      			loan_text2="주식으로 인생역전하려다 망했다.";
-					      			lblNewLabel_3.setText(loan_text2);
-					      			loan_text3="집안의 가장으로서 꼭 갚아야 한다.";
-					      			label_12.setText(loan_text3);
-					      			loan_text4="비트코인으로 역전을 노려볼 것이다.";
-					      			label_13.setText(loan_text4);
-					      			loan_text5="실패시 끔찍한 일이 벌어질 것 같다.";
-					      			label_14.setText(loan_text5);
-					      			loan_text6="500,000,000";
-					      			lblNewLabel_5.setText(loan_text6);
-					      			loan_text7="15%";
-					      			lblNewLabel_7.setText(loan_text7);
-					      			
-					      			label_16.setText(momo.format(loan_ex1[0]));
-					      			
-					      			label_18.setText(momo.format(loan_ex2[0]));
-					      			loan_text8="D-"+Integer.toString(d_day);
-					      			label_20.setText(loan_text8);
-					      			
-					      			loan_text11="전세집 대출금";
-					      			button_2.setText(loan_text11);
-					      			loan_text12="아직 직장에 다니고 있을떄 빌렸던 돈이다.";
-					      			label_2.setText(loan_text12);
-					      			loan_text13="1금융에서 빌려 이자는 높지 않다.";
-					      			label_3.setText(loan_text13);
-					      			loan_text14="신용을 잃었으니 비트코인으로 끝을 보자.";
-					      			label_4.setText(loan_text14);
-					      			loan_text15="못갚으면 가족이 길바닥으로 나앉는다.";
-					      			label_5.setText(loan_text15);
-					      			loan_text16="1,000,000,000";
-					      			label_7.setText(loan_text16);
-					      			loan_text17="5%";
-					      			label_23.setText(loan_text17);
-					      			label_25.setText(momo.format(loan_ex1[2]));
-					      			
-					      			label_27.setText(momo.format(loan_ex2[2]));
-					      			loan_text18="D-"+Integer.toString(d_day);
-					      			label_28.setText(loan_text18);
-					      			
-					      			loan_text111="고리대금업체에 빌린 돈";
-					      			button_3.setText(loan_text111);
-					      			loan_text21="더 물러날곳이 없어 위험한 곳에 손을댔다.";
-					      			label_30.setText(loan_text21);
-					      			loan_text31="험상굳은 사내가 든 칼이 기억난다.";
-					      			label_31.setText(loan_text31);
-					      			loan_text41="가족을 피신시키고 싶지만";
-					      			label_32.setText(loan_text41);
-					      			loan_text51="이미 신상정보가 털려버렸다.";
-					      			label_33.setText(loan_text51);
-					      			loan_text61="300,000,000";
-					      			label_35.setText(loan_text61);
-					      			loan_text71="50%";
-					      			label_37.setText(loan_text71);
-					      			
-					      			label_39.setText(momo.format(loan_ex1[1]));
-					      			label_41.setText(momo.format(loan_ex2[1]));
-					      			loan_text81="D-"+Integer.toString(d_day);
-					      			label_42.setText(loan_text81);
-					      			
-					      			loan_ex=loan_ex2[0]+loan_ex2[1]+loan_ex2[2];
-					      		//	tttt.set_Inter(loan_ex1, loan_ex2, loan_ex3, building);
-					      		}
-					      		else if(level==3)
-					      		{
-					   
-					      			loan_text1="오른 버피에게 진 빚";
-					      			btnNewButton_2.setText(loan_text1);
-					      			loan_text2="워런 버핏이 암흑계에서 사용하는 이름.";
-					      			lblNewLabel_3.setText(loan_text2);
-					      			loan_text3="하던 사업을 말아먹어 들키기 전에 갚아야한다.";
-					      			label_12.setText(loan_text3);
-					      			loan_text4="최대한 빨리 갚지 않으면 목숨이 위험할 듯 함.";
-					      			label_13.setText(loan_text4);
-					      			loan_text5="시간이 촉박하니 서두르자.";
-					      			label_14.setText(loan_text5);
-					      			loan_text6="50,000,000,000,000";
-					      			lblNewLabel_5.setText(loan_text6);
-					      			loan_text7="15%";
-					      			lblNewLabel_7.setText(loan_text7);
-					      			loan_ex3[0]=1500;
-					      			label_16.setText(momo.format(loan_ex1[0]));
-					      		
-					      			label_18.setText(momo.format(loan_ex2[0]));
-					      			loan_text8="D-"+Integer.toString(d_day);
-					      			label_20.setText(loan_text8);
-					      			
-					      			loan_text11="일루미나티에 제공해야할 돈";
-					      			button_2.setText(loan_text11);
-					      			loan_text12="미확인 단체 일루미나티에 지불해야 할 돈";
-					      			label_2.setText(loan_text12);
-					      			loan_text13="선조부터 이어온 관계 청산을 위한 조공이다.";
-					      			label_3.setText(loan_text13);
-					      			loan_text14="기간 내에 보내지 못하면 세뇌를 당할 것이다.";
-					      			label_4.setText(loan_text14);
-					      			loan_text15="일반인으로 살기위해 노력해보자.";
-					      			label_5.setText(loan_text15);
-					      			loan_text16="100,000,000,000";
-					      			label_7.setText(loan_text16);
-					      			loan_text17="100%";
-					      			label_23.setText(loan_text17);
-					      			label_25.setText(momo.format(loan_ex1[2]));
-					      		
-					      			label_27.setText(momo.format(loan_ex2[2]));
-					      			loan_text18="D-"+Integer.toString(d_day);
-					      			label_28.setText(loan_text18);
-					      			
-					      			loan_text111="랩틸리언에게 갚을 돈";
-					      			button_3.setText(loan_text111);
-					      			loan_text21="지구에 위장해 있는 랩틸리언에게 갚을 돈";
-					      			label_30.setText(loan_text21);
-					      			loan_text31="사업당시 알게된 랩틸리언에게 강제된 돈";
-					      			label_31.setText(loan_text31);
-					      			loan_text41="도망가려 생각할때마다 끔찍한 고통이 생김.";
-					      			label_32.setText(loan_text41);
-					      			loan_text51="살기 위해 최선을 다할 것이다.";
-					      			label_33.setText(loan_text51);
-					      			loan_text61="1,000,000,000,000";
-					      			label_35.setText(loan_text61);
-					      			loan_text71="500%";
-					      			label_37.setText(loan_text71);
-					      
-					      			label_39.setText(momo.format(loan_ex1[1]));
-					      			label_41.setText(momo.format(loan_ex2[1]));
-					      			loan_text81="D-"+Integer.toString(d_day);
-					      			label_42.setText(loan_text81);
-					      			
-					      			loan_ex=loan_ex2[0]+loan_ex2[1]+loan_ex2[2];
-					      		}
+				        		{
+				        			is=0;
+				        			
+				        			
+				        			loan_text1="부모님이 가지고 계신 빚";
+				        			btnNewButton_2.setText(loan_text1);
+				        			loan_text2="아프신 부모님이 가지고 계신 빚이다.";
+				        			lblNewLabel_3.setText(loan_text2);
+				        			loan_text3="부모님에 대한 사랑으로 갚으려 한다.";
+				        			label_12.setText(loan_text3);
+				        			loan_text4="부담되긴 하지만 열심히 갚아보자!";
+				        			label_13.setText(loan_text4);
+				        			loan_text5="(게임에서라도 효도를 할 수 있다.)";
+				        			label_14.setText(loan_text5);
+				        			loan_text6="100,000,000";
+				        			lblNewLabel_5.setText(loan_text6);
+				        			loan_text7="5%";
+				        			lblNewLabel_7.setText(loan_text7);
+				        			loan_ex3[0]=500;
+				        			label_16.setText(momo.format(loan_ex1[0]));
+				        			
+				        			label_18.setText(momo.format(loan_ex2[0]));
+				        			loan_text8="D-"+Integer.toString(d_day);
+				        			label_20.setText(loan_text8);
+				        			
+				        			loan_text11="C대학 학자금 대출";
+				        			button_2.setText(loan_text11);
+				        			loan_text12="C모 대학을 다니는 동안 생긴 빚이다.";
+				        			label_2.setText(loan_text12);
+				        			loan_text13="학교가 나한테 해준게 뭔데!라 생각하지만";
+				        			label_3.setText(loan_text13);
+				        			loan_text14="한국장학재단은 내 사정을 봐주지 않는다.";
+				        			label_4.setText(loan_text14);
+				        			loan_text15="장학금을 타지못한 본인을 탓하자.";
+				        			label_5.setText(loan_text15);
+				        			loan_text16="20,000,000";
+				        			label_7.setText(loan_text16);
+				        			loan_text17="0.05%";
+				        			label_23.setText(loan_text17);
+				        			label_25.setText(momo.format(loan_ex1[2]));
+				        			loan_ex3[2]=5;
+				        		
+				        			label_27.setText(momo.format(loan_ex2[2]));
+				        			loan_text18="D-"+Integer.toString(d_day);
+				        			label_28.setText(loan_text18);
+				        			
+				        			loan_text111="지인들에게 빌린돈";
+				        			button_3.setText(loan_text111);
+				        			loan_text21="여기저기서 융통해온 돈이다.";
+				        			label_30.setText(loan_text21);
+				        			loan_text31="친한친구,친척,전여친에게 돈을 빌렸다.";
+				        			label_31.setText(loan_text31);
+				        			loan_text41="빌린사람은 까먹어도 빌려준 사람은 기억한다.";
+				        			label_32.setText(loan_text41);
+				        			loan_text51="주변 지인들을 잃기전에 갚아야한다.";
+				        			label_33.setText(loan_text51);
+				        			loan_text61="8,000,000";
+				        			label_35.setText(loan_text61);
+				        			loan_text71="0.1%";
+				        			label_37.setText(loan_text71);
+				        			loan_ex3[1]=10;
+				        			
+				        			label_39.setText(momo.format(loan_ex1[1]));
+				        			label_41.setText(momo.format(loan_ex2[1]));
+				        			loan_text81="D-"+Integer.toString(d_day);
+				        			label_42.setText(loan_text81);
+				        			
+				        			loan_ex=loan_ex2[0]+loan_ex2[1]+loan_ex2[2];
+				        			
+				        		}
+				              
+				        		else if(level == 2)
+				        		{
+				        			
+				        			
+				        			
+				        			loan_text1="주식으로 한탕하려다 진 빚";
+				        			btnNewButton_2.setText(loan_text1);
+				        			loan_text2="주식으로 인생역전하려다 망했다.";
+				        			lblNewLabel_3.setText(loan_text2);
+				        			loan_text3="집안의 가장으로서 꼭 갚아야 한다.";
+				        			label_12.setText(loan_text3);
+				        			loan_text4="비트코인으로 역전을 노려볼 것이다.";
+				        			label_13.setText(loan_text4);
+				        			loan_text5="실패시 끔찍한 일이 벌어질 것 같다.";
+				        			label_14.setText(loan_text5);
+				        			loan_text6="500,000,000";
+				        			lblNewLabel_5.setText(loan_text6);
+				        			loan_text7="15%";
+				        			lblNewLabel_7.setText(loan_text7);
+				        			loan_ex3[0]=100;
+				        			label_16.setText(momo.format(loan_ex1[0]));
+				        		
+				        			label_18.setText(momo.format(loan_ex2[0]));
+				        			loan_text8="D-"+Integer.toString(d_day);
+				        			label_20.setText(loan_text8);
+				        			
+				        			loan_text11="전세집 대출금";
+				        			button_2.setText(loan_text11);
+				        			loan_text12="아직 직장에 다니고 있을떄 빌렸던 돈이다.";
+				        			label_2.setText(loan_text12);
+				        			loan_text13="1금융에서 빌려 이자는 높지 않다.";
+				        			label_3.setText(loan_text13);
+				        			loan_text14="신용을 잃었으니 비트코인으로 끝을 보자.";
+				        			label_4.setText(loan_text14);
+				        			loan_text15="못갚으면 가족이 길바닥으로 나앉는다.";
+				        			label_5.setText(loan_text15);
+				        			loan_text16="1,000,000,000";
+				        			label_7.setText(loan_text16);
+				        			loan_text17="5%";
+				        			label_23.setText(loan_text17);
+				        			label_25.setText(momo.format(loan_ex1[2]));
+				        			loan_ex3[2]=25;
+				        			
+				        			label_27.setText(momo.format(loan_ex2[2]));
+				        			loan_text18="D-"+Integer.toString(d_day);
+				        			label_28.setText(loan_text18);
+				        			
+				        			loan_text111="고리대금업체에 빌린 돈";
+				        			button_3.setText(loan_text111);
+				        			loan_text21="더 물러날곳이 없어 위험한 곳에 손을댔다.";
+				        			label_30.setText(loan_text21);
+				        			loan_text31="험상굳은 사내가 든 칼이 기억난다.";
+				        			label_31.setText(loan_text31);
+				        			loan_text41="가족을 피신시키고 싶지만";
+				        			label_32.setText(loan_text41);
+				        			loan_text51="이미 신상정보가 털려버렸다.";
+				        			label_33.setText(loan_text51);
+				        			loan_text61="300,000,000";
+				        			label_35.setText(loan_text61);
+				        			loan_text71="50%";
+				        			label_37.setText(loan_text71);
+				        			loan_ex3[1]=250;
+				        			
+				        			label_39.setText(momo.format(loan_ex1[1]));
+				        			label_41.setText(momo.format(loan_ex2[1]));
+				        			loan_text81="D-"+Integer.toString(d_day);
+				        			label_42.setText(loan_text81);
+				        			
+				        			loan_ex=loan_ex2[0]+loan_ex2[1]+loan_ex2[2];
+				        		}
+				        		else 
+				        		{
+				        	
+				        			
+				        			loan_text1="오른 버피에게 진 빚";
+				        			btnNewButton_2.setText(loan_text1);
+				        			loan_text2="워런 버핏이 암흑계에서 사용하는 이름.";
+				        			lblNewLabel_3.setText(loan_text2);
+				        			loan_text3="하던 사업을 말아먹어 들키기 전에 갚아야한다.";
+				        			label_12.setText(loan_text3);
+				        			loan_text4="최대한 빨리 갚지 않으면 목숨이 위험할 듯 함.";
+				        			label_13.setText(loan_text4);
+				        			loan_text5="시간이 촉박하니 서두르자.";
+				        			label_14.setText(loan_text5);
+				        			loan_text6="50,000,000,000,000";
+				        			lblNewLabel_5.setText(loan_text6);
+				        			loan_text7="15%";
+				        			lblNewLabel_7.setText(loan_text7);
+				        			loan_ex3[0]=150;
+				        			label_16.setText(momo.format(loan_ex1[0]));
+				        			
+				        			label_18.setText(momo.format(loan_ex2[0]));
+				        			loan_text8="D-"+Integer.toString(d_day);
+				        			label_20.setText(loan_text8);
+				        			
+				        			loan_text11="일루미나티에 제공해야할 돈";
+				        			button_2.setText(loan_text11);
+				        			loan_text12="미확인 단체 일루미나티에 지불해야 할 돈";
+				        			label_2.setText(loan_text12);
+				        			loan_text13="선조부터 이어온 관계 청산을 위한 조공이다.";
+				        			label_3.setText(loan_text13);
+				        			loan_text14="기간 내에 보내지 못하면 세뇌를 당할 것이다.";
+				        			label_4.setText(loan_text14);
+				        			loan_text15="일반인으로 살기위해 노력해보자.";
+				        			label_5.setText(loan_text15);
+				        			loan_text16="100,000,000,000";
+				        			label_7.setText(loan_text16);
+				        			loan_text17="100%";
+				        			label_23.setText(loan_text17);
+				        			label_25.setText(momo.format(loan_ex1[2]));
+				        			loan_ex3[2]=500;
+				        			
+				        			label_27.setText(momo.format(loan_ex2[2]));
+				        			loan_text18="D-"+Integer.toString(d_day+200);
+				        			label_28.setText(loan_text18);
+				        			
+				        			loan_text111="랩틸리언에게 갚을 돈";
+				        			button_3.setText(loan_text111);
+				        			loan_text21="지구에 위장해 있는 랩틸리언에게 갚을 돈";
+				        			label_30.setText(loan_text21);
+				        			loan_text31="사업당시 알게된 랩틸리언에게 강제된 돈";
+				        			label_31.setText(loan_text31);
+				        			loan_text41="도망가려 생각할때마다 끔찍한 고통이 생김.";
+				        			label_32.setText(loan_text41);
+				        			loan_text51="살기 위해 최선을 다할 것이다.";
+				        			label_33.setText(loan_text51);
+				        			loan_text61="1,000,000,000,000";
+				        			label_35.setText(loan_text61);
+				        			loan_text71="500%";
+				        			label_37.setText(loan_text71);
+				        			loan_ex3[1]=1000;
+				        			
+				        			label_39.setText(momo.format(loan_ex1[1]));
+				        			label_41.setText(momo.format(loan_ex2[1]));
+				        			loan_text81="D-"+Integer.toString(d_day+300);
+				        			label_42.setText(loan_text81);
+				        			
+				        			loan_ex=loan_ex2[0]+loan_ex2[1]+loan_ex2[2];
+				        		
+				        			
+				        	
+				        		}
 			        			
 					      		
 			        			
